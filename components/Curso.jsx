@@ -26,9 +26,9 @@ export default  function Curso() {
     <div className="flex flex-col justify-center pt-10 sm:pt-20 lg:flex-row">
         {lei[val].map((elem, key) => {
           return (
-           
+           <div/>
           );
         })}
-      </div>
+    </div>
   )
 }
