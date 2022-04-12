@@ -1,6 +1,6 @@
-import Hero from "../componentes/Hero";
-import Pesquisa from "../componentes/Pesquisa";
-import Curso from "../componentes/Curso";
+import Hero from "../components/Hero";
+import Pesquisa from "../components/Pesquisa";
+import Curso from "../components/Curso";
 import Image from 'next/image'
 
 
@@ -9,7 +9,7 @@ export default function Home() {
   <>
     <Hero/>
     <Pesquisa/>
-    <Curso/>
+    
   </>
   );
 }
