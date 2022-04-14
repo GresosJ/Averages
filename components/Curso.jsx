@@ -20,15 +20,15 @@ const lei = [
 
 export default  function Curso() {
   
-  const val = useState (0);
+  const val = 0;
 
   return (
-    <div className="flex flex-col justify-center pt-10 sm:pt-20 lg:flex-row">
-        {lei[val].map((elem, key) => {
+    <div className="flex flex-row justify-center pt-10 sm:pt-20">
+        {lei[val].map((elem) => {
           return (
-           
+           <div/>
           );
         })}
-      </div>
+    </div>
   )
 }
