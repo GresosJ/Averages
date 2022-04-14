@@ -8,7 +8,7 @@ export default function Hero(){
           <div className="flex items-center justify-between w-full md:w-auto">
               <a href="#">
                 <span className="sr-only">Workflow</span>
-                <Image src="/images/calculator.svg" width="50" height="100" />
+                <Image className="white" src="/images/calculator.svg" width="50" height="100" />
               </a>
           </div>
           <div className="hidden md:block md:ml-10 md:space-x-10">
